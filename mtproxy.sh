@@ -1,6 +1,6 @@
 #!/bin/bash
 rm -- "$0"
-echo "开始安装mtproxy"
+echo "开始安装mtproxy 魔改自pipixia244"
 apt update 2>/dev/null
 apt install git python3-pip curl xxd bc lsof -y 2>/dev/null
 yum update -y 2>/dev/null
